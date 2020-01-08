@@ -1,0 +1,18 @@
+post api/exercise/add
+    ...userId, description, duration (mins.), date(yyyy-mm-dd)
+post api/exercise/new-user
+    ...username
+get api/exercise/log?{userId}[&from][&to][&limit]
+    {} = required, [] = optional
+from, to = dates(yyyy-mm-dd); limit = number
+
+
+
+
+change exercise descriptions...
+    userId, reps, sets, weight, duration(optional), workout, date(yyyy-mm-dd)
+    
+EBF2FA
+ADD9F4
+170A1C
+#28CFD4
